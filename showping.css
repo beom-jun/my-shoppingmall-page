@@ -1,0 +1,102 @@
+.btn-outline-success{
+    color: wheat;
+    border-color: white;
+}
+
+.btn-outline-success:hover{
+    background-color: black;
+    color: antiquewhite;
+    border-color: black;
+}
+
+.bg-light1 {
+    --bs-bg-opacity: 1;
+    background-color: black;
+}
+
+.navbar-light1{
+    color: white;
+} 
+
+.navbar-nav1{
+    color: white;
+} 
+
+.nav-link1{
+    color: white;
+}
+
+.color{
+    color: white;
+}
+
+.none{
+    text-decoration: none;
+    color: black;
+}
+
+.none:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.size1{
+    font-size: 17px;
+}
+
+.size{
+    font-size: 17px;
+}
+
+.size:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.size2{
+    font-size: 25px;
+}
+
+.size2:hover{
+    -webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.line{
+        color: white;
+        border-bottom: 1px solid #392d23;
+}
+
+.none2 a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width:48rem){
+    .line{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .none2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-bottom: 1px solid #392d23;
+ }
+}
+
+.line3{
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .line3{
+    display: block;
+ }
+}
